@@ -7,8 +7,10 @@
   ],
   "nodes": [
     {
+      "toolbox": "Nipype",
+      "name": "io_DataGrabber",
+      "class": "io.DataGrabber",
       "category": [
-        "Nipype",
         "io"
       ],
       "ports": [
@@ -160,31 +162,30 @@
         -749.4093674088411,
         -334.29400392748676
       ],
-      "title": {
-        "code": [
-          {
-            "language": "Nipype",
-            "comment": "Generic datagrabber module that wraps around glob in an",
-            "argument": {
-              "name": "io.DataGrabber()",
-              "import": "import nipype.interfaces.io as io"
-            }
-          },
-          {
-            "language": "Docker",
-            "argument": {
-              "name": "Nipype, io"
-            }
+      "code": [
+        {
+          "language": "Nipype",
+          "comment": "Generic datagrabber module that wraps around glob in an",
+          "argument": {
+            "name": "io.DataGrabber()",
+            "import": "import nipype.interfaces.io as io"
           }
-        ],
-        "name": "io_DataGrabber",
-        "class": "io.DataGrabber",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.interfaces.io.html#datagrabber"
-      }
+        },
+        {
+          "language": "Docker",
+          "argument": {
+            "name": "Nipype, io"
+          }
+        }
+      ],
+      "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.interfaces.io.html#datagrabber",
+      "colour": "#fe334e"
     },
     {
+      "toolbox": "Nipype",
+      "name": "utility_IdentityInterface",
+      "class": "utility.IdentityInterface",
       "category": [
-        "Nipype",
         "utility",
         "base"
       ],
@@ -230,30 +231,27 @@
         }
       ],
       "position": [
-        -1218.8881475195183,
-        -298.3908133146938
+        -1238.2088262304558,
+        -359.9307150480922
       ],
-      "title": {
-        "code": [
-          {
-            "language": "Nipype",
-            "comment": "Basic interface class generates identity mappings",
-            "argument": {
-              "name": "utility.IdentityInterface()",
-              "import": "import nipype.interfaces.utility as utility"
-            }
-          },
-          {
-            "language": "Docker",
-            "argument": {
-              "name": "Nipype, utility"
-            }
+      "code": [
+        {
+          "language": "Nipype",
+          "comment": "Basic interface class generates identity mappings",
+          "argument": {
+            "name": "utility.IdentityInterface()",
+            "import": "import nipype.interfaces.utility as utility"
           }
-        ],
-        "name": "utility_IdentityInterface",
-        "class": "utility.IdentityInterface",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.utility/base.html#identityinterface"
-      }
+        },
+        {
+          "language": "Docker",
+          "argument": {
+            "name": "Nipype, utility"
+          }
+        }
+      ],
+      "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.utility/base.html#identityinterface",
+      "colour": "#9e06db"
     }
   ],
   "version": "v1"
